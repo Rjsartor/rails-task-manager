@@ -1,0 +1,13 @@
+<h2><%= @task.title %></h2>
+
+<ul>
+  <li><%= @task.details %></li>
+</ul>
+
+<!-- <form>
+  <input type="button" value="Edit">
+  <% button_to "Edit", task_edit_path(@task[:id]) %>
+</form> -->
+
+ <%= link_to "Edit Task", task_edit_path %>
+
